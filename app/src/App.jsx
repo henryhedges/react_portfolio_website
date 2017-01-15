@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import './assets/styles/main.css';
 
 class App extends Component {
   constructor (props) {
