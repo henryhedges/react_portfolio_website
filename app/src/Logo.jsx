@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-const BodyTile = ({project}) => {
+const Logo = () => {
   return (
     <div>
-      {project}
+      Logo/Image
     </div>
   );
 };
 
 
-export default BodyTile;
+export default Logo;

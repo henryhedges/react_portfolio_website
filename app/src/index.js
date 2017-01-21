@@ -8,7 +8,6 @@ import './assets/styles/main.scss'
 
 
 ReactDOM.render(
-
   <App />,
   document.getElementById('root')
 );

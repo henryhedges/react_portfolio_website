@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
-import HeaderNav from './HeaderNav';
+import NavBar from './NavBar';
+import Header from './Header'
 import Body from './Body';
 
 
 class App extends Component {
   constructor (props) {
     super(props);
+    this.state = {
+      pageView: null
+    }
   }
 
   render () {
     return (
       <div>
-        <HeaderNav/>
+        <NavBar/>
+        <Header/>
         <Body/>
-        Test
+        Tests
       </div>
     )
   }

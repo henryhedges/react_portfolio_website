@@ -11,8 +11,8 @@ class Body extends Component {
     return (
       <div>
         <BodyTile project={'derp'}/>
-        <BodyTile />
-        <BodyTile />
+        <BodyTile project={'herpa derp'}/>
+        <BodyTile project={'schmerpa derp'}/>
       </div>
     )
   }

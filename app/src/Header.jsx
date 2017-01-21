@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-const BodyTile = ({project}) => {
+const Header = () => {
   return (
     <div>
-      {project}
+      Header Image
     </div>
   );
 };
 
 
-export default BodyTile;
+export default Header;
