@@ -9,10 +9,12 @@ class Body extends Component {
 
   render () {
     return (
-      <div>
-        <BodyTile project={'derp'}/>
-        <BodyTile project={'herpa derp'}/>
-        <BodyTile project={'schmerpa derp'}/>
+      <div className="tiles-container">
+        <div className="tiles-row">
+          <BodyTile project={'derp'}/>
+          <BodyTile project={'herpa derp'}/>
+          <BodyTile project={'schmerpa derp'}/>
+        </div>
       </div>
     )
   }

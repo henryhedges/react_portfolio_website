@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Logo = () => {
   return (
-    <div>
+    <div className="logo">
       Logo/Image
     </div>
   );

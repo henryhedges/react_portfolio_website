@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const BodyTile = ({project}) => {
   return (
-    <div>
+    <div className="tile">
       {project}
     </div>
   );
