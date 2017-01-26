@@ -10,13 +10,11 @@ body {
     width:100%;
 
     .logo {
-      background-color: lightblue;
-      margin:10px;
+      margin:10px 20px 20px;
     }
 
     .button{
-      background-color: yellow;
-      margin: 10px 20px;
+      margin: 10px 20px 20px;
     }
 
   }
@@ -30,22 +28,19 @@ body {
 
   .tiles-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: orange; 
     width:100%;
 
-    .tiles-row {
-      diplay: flex;
-      flex-direction: row;
-      background-color: lightblue;
-      margin: 30px 0px;
-      .tile {
-        background-color: yellow;
-        margin: 1% auto;
-      }
-
+    .tile {
+      background-color: yellow;
+      padding: 5%;
+      margin: 5%;
     }
-    
+
   }
+    
 
 }

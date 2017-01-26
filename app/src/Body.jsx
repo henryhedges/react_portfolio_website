@@ -5,16 +5,23 @@ import BodyTile from './BodyTile';
 class Body extends Component {
   constructor () {
     super();
+    this.state = {
+      view: 'portfolio',
+    }
+
+    this.changeView = this.changeView.bind(this)
+  }
+
+  changeView(desiredView) {
+    this.setState({ view: desiredView }); 
   }
 
   render () {
     return (
       <div className="tiles-container">
-        <div className="tiles-row">
-          <BodyTile project={'derp'}/>
-          <BodyTile project={'herpa derp'}/>
-          <BodyTile project={'schmerpa derp'}/>
-        </div>
+        <BodyTile project={'derp'} />
+        <BodyTile project={'herpa derp'} />
+        <BodyTile project={'schmerpa derp'} />
       </div>
     )
   }
