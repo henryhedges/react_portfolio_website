@@ -10,7 +10,7 @@ body {
     width:100%;
 
     .logo {
-      margin:10px 20px 20px;
+      margin:10px 20px 20px 10px;
     }
 
     .button{
@@ -22,8 +22,8 @@ body {
   .header {
     background-color: lightgreen;
     text-align: center;
-    padding: 10%;
-
+    width: 100%;
+    height: 300px;
   }
 
   .tiles-container {
@@ -32,15 +32,24 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     background-color: orange; 
-    width:100%;
+    width: 100%;
+    height: auto;
 
     .tile {
       background-color: yellow;
-      padding: 5%;
-      margin: 5%;
+      border-radius: 4px;
+      box-shadow: 3px 3px 10px grey;
+      margin: auto;
+      width: 400px;
+      height: 235px;
+      margin-top: 5%;
+    }
+
+    .tile-bottom{
+      @extend .tile;
+      margin-bottom: 5%;
     }
 
   }
     
-
 }

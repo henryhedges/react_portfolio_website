@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const BodyTile = ({project}) => {
+const BodyTile = ({project, tileClass}) => {
   return (
-    <div className="tile">
+    <div className={tileClass}>
       {project}
     </div>
   );
